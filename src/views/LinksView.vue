@@ -15,7 +15,7 @@ import InlineLink from '@/components/InlineLink.vue';
         <br />
         the <InlineLink to="/links/big-shots">big shots</InlineLink> in his eyes.
         <br />
-        and the other <InlineLink to="/links/blogroll">charming souls!</InlineLink>
+        and the other <InlineLink to="/links/blogroll">charming souls</InlineLink>!
       </p>
     </div>
   </div>

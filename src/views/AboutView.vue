@@ -12,16 +12,15 @@ import SocialCard from '@/components/SocialCard.vue';
         'Blog': { url: 'https://blog.xeniu.me/', icon: 'fas fa-blog' },
         'GitHub': { url: 'https://github.com/Xeniume', icon: 'fab fa-github' },
         'Email': { url: 'mailto:ohmyxeniume@gmail.com', icon: 'fas fa-envelope' },
+        'PGP Public Key': { url: 'https://keys.openpgp.org/vks/v1/by-fingerprint/0FCC70B9B087CF16D415898CA6985A5F72D873A8', icon: 'fas fa-key' },
       }">
-        <InlineLink to="https://keys.openpgp.org/vks/v1/by-fingerprint/0FCC70B9B087CF16D415898CA6985A5F72D873A8">
-          0FCC 70B9 B087 CF16 D415&ensp;898C A698 5A5F 72D8 73A8
-        </InlineLink>
+        One Last Dance.
       </SocialCard>
     </div>
 
     <div class="text">
       <p>
-        Meet <b>Xeniume</b> (/'zenɪɘm/)!
+        Meet <strong>Xeniume</strong> (/'zenɪɘm/)!
       </p>
       <p>
         Currently, he's studying in China.
@@ -36,12 +35,14 @@ import SocialCard from '@/components/SocialCard.vue';
         in, sparking a desire to <InlineLink to="/links">link</InlineLink> them with others.
       </p>
       <p>
-        He has a keen interest in <b>computer science</b>, though he prefers not to label himself as a tech otaku.
+        He has a keen interest in <strong>computer science</strong>, though he prefers not to label himself as a tech
+        otaku.
         <br />
-        He also enjoys reading <b>science fiction</b>, playing <b>badminton</b> with friends, and sometimes simply
-        gazing into space in peaceful <b>reflexion</b>.
+        He also enjoys reading <strong>science fiction</strong>, playing <strong>badminton</strong> with friends, and
+        sometimes simply
+        gazing into space in peaceful <strong>reflexion</strong>.
       </p>
-      <p> Ultimately, he's just an ordinary bloke, content with the little things in life. </p>
+      <p>Ultimately, he's just an ordinary bloke, content with the little things in life.</p>
     </div>
   </div>
 </template>

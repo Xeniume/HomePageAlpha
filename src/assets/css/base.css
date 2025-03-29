@@ -28,13 +28,25 @@ body {
   background-color: #e2e2da;
 }
 
+.content hr {
+  display: block;
+  border: 0 1px solid #a4a894;
+  margin: 0 0.3rem;
+}
+
 .text {
   padding: 0 2rem;
   line-height: 2;
 }
 
-.text p {
+.text p, ol, ul {
   margin: 1.5rem 0;
+}
+
+.text strong {
+  color: #010234;
+  background: linear-gradient(to right, #3a4f66, #304142) no-repeat center bottom;
+  background-size: 100% 1px;
 }
 
 @media (max-width: 800px) {
